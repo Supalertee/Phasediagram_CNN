@@ -4,8 +4,10 @@ This response is an example of using the VGG Deep learning model to draw the pha
 where they are distinguished by the existence of the gapped and gapless spectral features. The zero or very small values between the lower and upper bands will be called the gapped phase. On the other hand, where the upper band and lower band touch each other, we call the gapless phase. Tuning parameters such as temperature, coupling constant, order parameter, and chemical potential usually cause the phase transition. </br>
 
 In this response, I will give just only 2 examples: </br>
-1) The quantum phase diagram or, simply speaking, the phase transition at the zero temperature. In this case, the phase diagram can be completed by varying 2 parameters, so-called chemical potential and coupling constant. </br>
-2) the finite temperature phase diagram. In this case, the temperature is also varied so that the phase diagram appears as a three-dimensional object.
+<ul>
+<li> The quantum phase diagram or, simply speaking, the phase transition at the zero temperature. In this case, the phase diagram can be completed by varying 2 parameters, so-called chemical potential and coupling constant.</li>
+<li> the finite temperature phase diagram. In this case, the temperature is also varied so that the phase diagram appears as a three-dimensional object.</li>
+</ul>
 
 However, the Deep learning model is still valid for both cases.
 
