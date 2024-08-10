@@ -16,6 +16,6 @@ code to generate the spectral function. See.
 
 The train data will be divided into 2 classes: gapped and gapless. The dataset is collected in CSV (data frame) format. I uploaded all the data here: [Drive](https://drive.google.com/drive/folders/18zn7zBnz3JQzz35ODgLYF7AWuLrYS50E?usp=drive_link)
 
-# Train the model
+# The Classification Model.
 
-We will feed the model data by diverging gapped and gapless spectral functions. The pseudo gap occurs when there is a small value between the upper and lower bands but not low enough to be decided as gapped or gapless. In the practical data, we will use the model to draw the phase diagram of course, containing these phases. Therefore, I will use a softmax activation function, which will give the probability for each class. From this fact, I can assume that when the absolute value of the difference of probability is small enough, let's say it is pseudo-gap.
+We will feed the model data by diverging gapped and gapless spectral functions. The pseudo gap occurs when there is a small value between the upper and lower bands but not low enough to be decided as gapped or gapless. In the practical data, we will use the model to draw the phase diagram of course, containing these phases. Therefore, I will use a softmax activation function, which will give the probability for each class. From this fact, I can assume that when the absolute value of the difference of probability is small enough, let's say it is a pseudo-gap phase.
