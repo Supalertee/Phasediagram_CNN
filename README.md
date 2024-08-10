@@ -11,4 +11,7 @@ However, the Deep learning model is still valid for both cases.
 
 # Train Data
 
-In this example, I generate the spectral function by solving a system of differential equations. See my college paper [Classification of Mott Gap](https://doi.org/10.48550/arXiv.2404.10412)
+In this example, I generate the spectral function by solving a system of differential equations. See my college paper [Classification of Mott Gap] (https://doi.org/10.48550/arXiv.2404.10412). I also provided the Julia
+code to generate the spectral function. See. 
+
+The train data will be divided into 2 classes: gapped and gapless. The dataset is collected in csv (dataframe) type.
