@@ -23,9 +23,11 @@ However, the Deep learning model is still valid for both cases.
 # The Classification Model.
 
 <ul>
-  <li> Size of the input is (241,241,1)</li>
-  <li> 
+  <li> Size of the input is (241,241,1) </li>
+  <li> Convolution 2D with ReLU activation function </li>
+  <li> Dropout also be used for add the regulator </li>
+  <li> Softmax activation function will be used in the final layer even there are just 2 classes in the training data. The reason is given below </li>
 </ul>
-We will feed the model data by diverging gapped and gapless spectral functions with size, (241,241,1). However, the CSV files in my Google drive is flatten to $$241^2$$. So, if you use my data you should to reshape them. </br>
+We will feed the model data by diverging gapped and gapless spectral functions with size, (241,241,1). However, the CSV files in my Google drive is flatten to $ 241^2 $. So, if you use my data you should to reshape them. </br>
 
 Moreover, the intermediate phase so call pseudo gap occurs when there is a small value between the upper and lower bands but not low enough to be decided as gapped or gapless. In the practical data, we will use the model to draw the phase diagram of course, containing these phases. Therefore, I will use the **$$\text{\color{red}{softmax activation function}}$$**, which will give the $$\text{\color{lightgreen}{probability for each class}}$$. From this fact, I can assume that when the absolute value of the difference of probability is small enough, let's say it is a pseudo-gap phase.
