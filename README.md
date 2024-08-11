@@ -1,6 +1,6 @@
 
 # Phase diagram and Quantum Phase transition.
-This response is an example of using the VGG Deep learning model to draw the phase diagram in condensed matter. The train/test data is a 2-dimensional spectral function (SF) in  $` A(\omega,k)`$
+This repository is an example of using the VGG Deep learning model to draw the phase diagram in condensed matter. The train/test data is a 2-dimensional spectral function (SF) in  $` A(\omega,k)`$
 where they are distinguished by the existence of the gapped and gapless spectral features. The zero or very small values between the lower and upper bands will be called the gapped phase. On the other hand, where the upper band and lower band touch each other, we call the gapless phase. Tuning parameters such as temperature, coupling constant, order parameter, and chemical potential usually cause the phase transition. </br>
 
 In this response, I will give just only 2 examples: </br>
